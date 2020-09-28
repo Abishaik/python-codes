@@ -1,0 +1,4 @@
+import pyautogui
+import time
+time.sleep(20)
+pyautogui.typewrite("Hey ,There!!! Now Im typing in my own without your help ",0.2)
