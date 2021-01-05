@@ -1,4 +1,9 @@
+#required modules
 import pyautogui
 import time
+
+#it will do nothing for 20 seconds
 time.sleep(20)
+
+#It will type string inside it and 0.2 refers the typing speed
 pyautogui.typewrite("Hey ,There!!! Now Im typing in my own without your help ",0.2)
